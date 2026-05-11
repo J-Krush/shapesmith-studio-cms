@@ -4,12 +4,17 @@ import { laserSpecs } from "./laser-specs"
 import { material } from "./material"
 import { collaboration } from "./collaboration"
 import { profile } from "./profile"
+import { product } from './product'
+import { process } from './process'
 
-export const schemaTypes = [ 
+
+export const schemaTypes = [
     laserStyle,
     makerProcess,
     laserSpecs,
     material,
     collaboration,
-    profile
+    profile,
+    product,
+    process
 ]
